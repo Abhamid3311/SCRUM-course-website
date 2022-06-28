@@ -1,17 +1,16 @@
 import './App.css';
-import Navbar from './components/SharedPage/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/HomePages/Home';
 import About from './components/Pages/About';
-import Courses from './components/Pages/Courses';
 import Blogs from './components/Pages/Blogs';
 import Login from './components/Pages/Login/Login';
 import SignUp from './components/Pages/Login/SignUp';
+import Courses from './components/HomePages/Courses';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div >
+
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>

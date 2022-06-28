@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Learn SCRUM: The Complete Beginner Course",
+        "instructor": "Samay Jain, Ex-KPMG",
+        "ratings": "4.5",
+        "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    },
+    {
+        "id": 2,
+        "name": "Learn SCRUM: The Complete Beginner Course",
+        "instructor": "Samay Jain, Ex-KPMG",
+        "ratings": "4.5",
+        "img": "https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500381/126423271-creative-dark-coding-wallpaper-with-text-programming-and-future-concept-3d-rendering.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Learn SCRUM: The Complete Beginner Course",
+        "instructor": "Samay Jain, Ex-KPMG",
+        "ratings": "4.5",
+        "img": "https://previews.123rf.com/images/peshkova/peshkova1803/peshkova180300363/96797701-creative-html-wallpaper-coding-programming-and-technology-concept-double-exposure.jpg"
+    }
+]

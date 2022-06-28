@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from '../SharedPage/Navbar';
+import Courses from './Courses';
 import Testimonial from './Testimonial';
 import TopBanner from './TopBanner';
 
 const Home = () => {
     return (
-        <div className='text-white bg-gradient-to-r from-indigo-500 to-purple-500' >
-            <Navbar></Navbar>
+        <div >
             <TopBanner></TopBanner>
+            <Courses></Courses>
             <Testimonial></Testimonial>
         </div>
     );
