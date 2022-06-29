@@ -1,15 +1,17 @@
 import React from 'react';
+import course from '../../images/course.png';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const Featured = () => {
     return (
-        <div>
+        <div className='px-10'>
             <div class="hero min-h-screen ">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="https://api.lorem.space/image/movie?w=260&h=400" class="max-w-sm rounded-lg shadow-2xl" />
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <img src={course} class="w-4/6 h-full" alt='' />
                     <div>
-                        <h1 class="text-5xl font-bold">Start learning with us right now!</h1>
+                        <h1 class="text-4xl font-bold text-indigo-500">Start learning with us right now!</h1>
                         <p class="py-6">Choose from 100+ online video courses with new updates.</p>
-                        <button className="btn btn-accent btn-outline rounded-full">ENROLL NOW</button>
+                        <button className="btn btn-accent btn-outline rounded-full">ENROLL NOW <AiOutlineArrowRight className='ml-1'></AiOutlineArrowRight></button>
                     </div>
                 </div>
             </div>

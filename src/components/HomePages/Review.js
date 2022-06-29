@@ -5,7 +5,7 @@ const Review = ({ review }) => {
     const { name, designation, comment, img } = review;
     return (
 
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-base-100 shadow-lg hover:shadow-2xl">
             <figure className="px-10 pt-10">
                 <img src={img} alt="person" className="rounded-xl w-1/3" />
             </figure>
