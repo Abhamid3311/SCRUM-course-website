@@ -7,6 +7,9 @@ import Login from './components/Pages/Login/Login';
 import SignUp from './components/Pages/Login/SignUp';
 import Courses from './components/HomePages/Courses';
 
+
+
+
 function App() {
   return (
     <div >
