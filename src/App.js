@@ -6,6 +6,7 @@ import Blogs from './components/Pages/Blogs';
 import Login from './components/Pages/Login/Login';
 import SignUp from './components/Pages/Login/SignUp';
 import Courses from './components/HomePages/Courses';
+import Footer from './components/SharedPage/Footer';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
 
       </Routes>
+      <Footer></Footer>
 
     </div>
   );
