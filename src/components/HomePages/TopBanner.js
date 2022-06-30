@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../SharedPage/Navbar';
 import CountDown from './CountDown';
-import { AiOutlineArrowRight} from 'react-icons/ai';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 import img1 from '../../images/Ellipse 1.png';
 import img2 from '../../images/Ellipse 2.png';
 import img3 from '../../images/Ellipse 3.png';
@@ -22,7 +22,7 @@ const TopBanner = () => {
 
                     <img src={img4} className='img4  h-24 w-24' alt="" /> */}
 
-                    <img src={img1} className='hidden lg:block w-1/3' alt="" />
+                    <img src={img1} className='hidden lg:block w-1/3 relative left-20 ' alt="" />
 
                     <div className='text-center lg:text-left mr-5 '>
                         <span className="border-2 p-1 bg-white text-purple-500  font-semibold border-solid divide-white rounded-full">
@@ -38,11 +38,8 @@ const TopBanner = () => {
                         <CountDown></CountDown>
 
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     );
 };
