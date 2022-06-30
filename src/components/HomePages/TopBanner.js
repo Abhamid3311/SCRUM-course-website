@@ -6,7 +6,7 @@ import img1 from '../../images/Ellipse 1.png';
 import img2 from '../../images/Ellipse 2.png';
 import img3 from '../../images/Ellipse 3.png';
 import img4 from '../../images/Ellipse 4.png';
-import './TopBanner.css';
+
 
 const TopBanner = () => {
     return (

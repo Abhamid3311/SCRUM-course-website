@@ -1,6 +1,13 @@
 import React from 'react';
+import useTimer from '../../hooks/useTimer';
 
 const CountDown = () => {
+    const {
+        hour,
+        minute,
+        second,
+    } = useTimer();
+
     return (
         <div>
             <p className='mt-20 mb-10'>10% OFF on all courses* | Offer Valid For</p>
@@ -9,19 +16,19 @@ const CountDown = () => {
 
                 <div className="flex flex-col p-2 bg-primary text-white rounded-box ">
                     <span className="countdown font-mono text-5xl">
-                        <span style={{ "--value": 2 }}></span>
+                        <span style={{ "--value": hour }}></span>
                     </span>
                     hours
                 </div>
                 <div className="flex flex-col p-2 bg-primary text-white   rounded-box ">
                     <span className="countdown font-mono text-5xl">
-                        <span style={{ "--value": 50 }}></span>
+                        <span style={{ "--value": minute }}></span>
                     </span>
                     min
                 </div>
                 <div className="flex flex-col p-2 bg-primary text-white rounded-box ">
                     <span className="countdown font-mono text-5xl">
-                        <span style={{ "--value": 50 }}></span>
+                        <span id='counterElement' style={{ "--value": second }}></span>
                     </span>
                     sec
                 </div>
