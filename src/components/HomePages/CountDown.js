@@ -16,7 +16,7 @@ const CountDown = () => {
 
                 <div className="flex flex-col p-2 bg-primary text-white rounded-box ">
                     <span className="countdown font-mono text-5xl">
-                        <span style={{ "--value": hour }}></span>
+                        <span style={{ "--value": 2 }}></span>
                     </span>
                     hours
                 </div>
