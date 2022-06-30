@@ -27,7 +27,7 @@ const Navbar = () => {
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end mr-5">
+            <div className="navbar-end mr-5 text-xl">
                 <Link to='/login' className='mr-5'>Login</Link>
                 <button className='btn btn-outline rounded-full text-white'><Link to='/signup'>Sign Up</Link></button>
             </div>

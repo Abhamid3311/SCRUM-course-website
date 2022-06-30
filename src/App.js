@@ -6,6 +6,9 @@ import Blogs from './components/Pages/Blogs';
 import Login from './components/Pages/Login/Login';
 import SignUp from './components/Pages/Login/SignUp';
 import Footer from './components/SharedPage/Footer';
+
+
+
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.css';

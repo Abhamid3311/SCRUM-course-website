@@ -13,12 +13,8 @@ const Review = ({ review }) => {
                 <h2 className="card-title text-accent">{name}</h2>
                 <p className=' text-accent mb-3 -mt-2'>{designation}</p>
                 <p className='text-muted'>{comment}</p>
-
             </div>
         </div>
-
-
-
     );
 };
 
