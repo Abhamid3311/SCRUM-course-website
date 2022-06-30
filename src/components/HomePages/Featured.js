@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import course from '../../images/course.png';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 

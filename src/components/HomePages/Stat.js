@@ -39,7 +39,6 @@ const Stat = () => {
                     <div class="stat-value text-red-500">1,200</div>
                     <div class="stat-desc">↗︎ 90 (14%)</div>
                 </div>
-
             </div>
         </section>
     );

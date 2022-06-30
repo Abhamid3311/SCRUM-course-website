@@ -2,7 +2,6 @@ import React from 'react';
 import Courses from './Courses';
 import Featured from './Featured';
 import Stat from './Stat';
-import Swiper from './Swiper';
 import Testimonial from './Testimonial';
 import TopBanner from './TopBanner';
 

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Course from './Course';
 
-
 const Courses = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
