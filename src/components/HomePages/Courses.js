@@ -11,7 +11,7 @@ const Courses = () => {
     }, []);
 
     return (
-        <div className='mt-20 px-10'>
+        <section id='course' className='mt-20 px-10'>
             <h3 className='font-bold text-3xl mb-1'>A broad range of courses</h3>
             <p className='text-lg font-semibold'>Choose from 100+ online video courses with new additions published every month</p>
 
@@ -23,8 +23,7 @@ const Courses = () => {
                     ></Course>)
                 }
             </div>
-
-        </div>
+        </section>
     );
 };
 

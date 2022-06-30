@@ -4,8 +4,8 @@ import { BiPhoneCall } from 'react-icons/bi';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-800 text-white'>
-            <footer class="footer p-10 ">
+        <footer className='bg-gray-800 text-white'>
+            <div class="footer p-10 ">
                 <div className='lg:border-r pr-8'>
                     <h2 className='text-3xl font-bold mb-3'>SCRUMVERSE</h2>
                     <p>We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun.</p>
@@ -38,9 +38,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </footer>
+            </div>
 
-            <footer class="footer p-10  ">
+            <div class="footer p-10  ">
                 <div class="grid grid-flow-row lg:grid-flow-col pt-10 gap-4 w-full border-t  py-4 ">
                     <a class="link link-hover">About us</a>
                     <a class="link link-hover">Jobs</a>
@@ -53,8 +53,8 @@ const Footer = () => {
                     <a class="link link-hover">Sitemap</a>
                     <a class="link link-hover">Terms of use</a>
                 </div>
-            </footer>
-            <footer class="footer px-10  flex flex-col-reverse lg:flex-row-reverse  border-base-300 justify-between">
+            </div>
+            <div class="footer px-10  flex flex-col-reverse lg:flex-row-reverse  border-base-300 justify-between">
                 <div class="items-center grid-flow-col">
                     <p>© 2000-2022 | All right reserved </p>
                 </div>
@@ -67,8 +67,8 @@ const Footer = () => {
                         <a><BsWhatsapp></BsWhatsapp></a>
                     </div>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
     );
 };
 

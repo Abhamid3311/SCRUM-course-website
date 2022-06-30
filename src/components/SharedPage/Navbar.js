@@ -6,11 +6,11 @@ const Navbar = () => {
     const menuItems = <>
         <Link to='/' className='mr-5'>Home</Link>
         <Link to='/about' className='mr-5'>About</Link>
-        <Link to='/courses' className='mr-5'>Course</Link>
+        <a href='/home#course' className='mr-5'>Course</a>
         <Link to='/blogs'>Blog</Link>
     </>
     return (
-        <div className="navbar bg-transparent">
+        <header className="navbar bg-transparent">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -29,9 +29,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-end mr-5">
                 <Link to='/login' className='mr-5'>Login</Link>
-                <button className='btn btn-outline rounded-full '><Link to='/signup'>Sign Up</Link></button>
+                <button className='btn btn-outline rounded-full text-white'><Link to='/signup'>Sign Up</Link></button>
             </div>
-        </div>
+        </header>
     );
 };
 

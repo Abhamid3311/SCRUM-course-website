@@ -10,7 +10,7 @@ import img4 from '../../images/Ellipse 4.png';
 
 const TopBanner = () => {
     return (
-        <div className='text-white bg-gradient-to-r from-indigo-500 to-purple-500'>
+        <section className='text-white bg-gradient-to-r from-indigo-500 to-purple-500'>
             <Navbar></Navbar>
             <div className=" hero min-h-screen ">
                 <div className=" hero-content flex-col lg:flex-row-reverse ">
@@ -40,7 +40,7 @@ const TopBanner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
