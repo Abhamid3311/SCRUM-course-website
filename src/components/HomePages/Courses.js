@@ -1,5 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+
 import Course from './Course';
+import './Courses.css';
+
+
+import { Navigation, Pagination } from "swiper";
+
+
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
@@ -12,16 +27,40 @@ const Courses = () => {
     return (
         <section id='course' className='mt-20 px-10'>
             <h3 className='font-bold text-3xl mb-1'>A broad range of courses</h3>
-            <p className='text-lg font-semibold'>Choose from 100+ online video courses with new additions published every month</p>
+            <p className='text-lg font-semibold mb-12'>Choose from 100+ online video courses with new additions published every month</p>
 
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 mt-9'>
+
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={10}
+                Navigation={true}
+                pagination={{
+                    clickable: true,
+                }}
+
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                }}
+                modules={[Navigation, Pagination]}
+                className="mySwiper">
                 {
-                    courses.map(course => <Course
+                    courses.map(course => <SwiperSlide><Course
                         key={course.id}
                         course={course}
-                    ></Course>)
+                    ></Course></SwiperSlide>)
                 }
-            </div>
+
+            </Swiper>
+
+
         </section>
     );
 };

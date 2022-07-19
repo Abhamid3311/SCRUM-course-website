@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { BsStarFill, BsStarHalf, BsBookmarkHeart } from 'react-icons/bs';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
+import './Courses.css';
+
 const Course = ({ course }) => {
     const { id, name, instructor, ratings, img } = course;
     const [marked, setMarked] = useState(false);
@@ -11,9 +13,9 @@ const Course = ({ course }) => {
     };
 
     return (
-        <div className="card w-50  card-compact shadow-lg hover:shadow-2xl">
+        <div className="card w-64 card-con card-compact shadow-lg hover:shadow-2xl">
             <figure><img src={img} alt="course" /></figure>
-            <div className="card-body">
+            <div className="card-body text-left">
                 <div className='flex flex-row justify-between items-top'>
                     <h2 className="card-title text-xl">{name}</h2>
                     <BsBookmarkHeart onClick={() => handleBookMark(id)}
@@ -21,7 +23,7 @@ const Course = ({ course }) => {
                     ></BsBookmarkHeart>
                 </div>
 
-                <p className='text-muted text-lg'>{instructor}</p>
+                <p className='text-muted text-lg text-left'>{instructor}</p>
                 <div className='flex flex-row justify-start items-center text-lg text-indigo-500'>
                     <span className='mr-3 font-bold'>{ratings} </span>
                     <BsStarFill></BsStarFill>
