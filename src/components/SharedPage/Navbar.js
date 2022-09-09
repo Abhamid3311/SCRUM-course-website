@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const menuItems = <>
         <Link to='/' className='mr-5'>Home</Link>
+        <a href='/home#course' className='mr-5'>Courses</a>
         <Link to='/about' className='mr-5'>About</Link>
-        <a href='/home#course' className='mr-5'>Course</a>
         <Link to='/blogs'>Blog</Link>
     </>
-    
+
     return (
         <header className="navbar bg-transparent">
             <div className="navbar-start">

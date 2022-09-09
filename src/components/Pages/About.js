@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <Navbar></Navbar>
-            About
+            <h2 className='text-center text-4xl my-5'>About</h2>
         </div>
     );
 };
