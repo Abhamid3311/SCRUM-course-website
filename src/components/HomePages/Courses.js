@@ -57,10 +57,8 @@ const Courses = () => {
                         course={course}
                     ></Course></SwiperSlide>)
                 }
-
             </Swiper>
-
-
+            
         </section>
     );
 };

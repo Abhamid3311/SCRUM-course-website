@@ -3,21 +3,21 @@
         "id": 1,
         "name": "Andrew Garfield",
         "designation": "Learner, Govt. Employee @UPPCL",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "comment": "Coursera has helped me expand my knowledge through several important courses that are extremely impactful and helpful for my career.",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQoIKo3El-UKkcxy8uS-arKOsM0tbI3yMZuI_DnDLL37tdBU2sPtNTSsD8pMU0i2-DOE&usqp=CAU"
     },
     {
         "id": 2,
-        "name": "Andrew Garfield",
-        "designation": "Learner, Govt. Employee @UPPCL",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQoIKo3El-UKkcxy8uS-arKOsM0tbI3yMZuI_DnDLL37tdBU2sPtNTSsD8pMU0i2-DOE&usqp=CAU"
+        "name": "Roger Williams",
+        "designation": "Student of DU",
+        "comment": "I was able to prove to potential employers that I have a solid understanding of computers and hardware—and started to receive real, viable job offers.",
+        "img": "https://images.squarespace-cdn.com/content/v1/59d95afcf6576ed92f0df556/1508995221735-J9TT12A2H9LFDIX8XQDV/Worley+Headshot+June+2016+-+Small-bw-circle-border.jpg?format=1000w"
     },
     {
         "id": 3,
-        "name": "Andrew Garfield",
+        "name": "Andrew Peter",
         "designation": "Learner, Govt. Employee @UPPCL",
-        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpQoIKo3El-UKkcxy8uS-arKOsM0tbI3yMZuI_DnDLL37tdBU2sPtNTSsD8pMU0i2-DOE&usqp=CAU"
+        "comment": "For the first time, finishing my degree seemed realistic. It was online with a flexible schedule. It felt like this program was made for my situation.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_mpdTkAOjNZ8_N9SNFkzq7XCHXP81acoXPoHCRNi1o7IQk3EMPXwcA7kEVjw9jMHXos&usqp=CAU"
     }
 ]
