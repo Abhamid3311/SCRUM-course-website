@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
 import Course from './Course';
 import './Courses.css';
 
@@ -55,10 +54,10 @@ const Courses = () => {
                     courses.map(course => <SwiperSlide><Course
                         key={course.id}
                         course={course}
-                    ></Course></SwiperSlide>)
+                    ></Course></SwiperSlide>).slice(0, 6)
                 }
             </Swiper>
-            
+
         </section>
     );
 };

@@ -9,13 +9,14 @@ const Navbar = () => {
     console.log(user)
     const menuItems = <>
         <Link to='/' className='mr-5'>Home</Link>
-        <a href='/home#course' className='mr-5'>Courses</a>
+        <Link to='/allcourse' className='mr-5'>Courses</Link>
         <Link to='/about' className='mr-5'>About</Link>
-        <Link to='/blogs'>Blog</Link>
+        <Link to='/contact' className='mr-5'>Contact Us</Link>
+
     </>
 
     return (
-        <header className="navbar bg-indigo-500">
+        <header className="navbar sticky top-0 z-10 bg-indigo-500 text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">

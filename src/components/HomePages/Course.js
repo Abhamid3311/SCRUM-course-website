@@ -13,7 +13,7 @@ const Course = ({ course }) => {
     };
 
     return (
-        <div className="card w-64 card-con card-compact shadow-lg hover:shadow-2xl">
+        <div className="card w-80 card-con card-compact shadow-lg hover:shadow-2xl">
             <figure><img src={img} alt="course" /></figure>
             <div className="card-body text-left">
                 <div className='flex flex-row justify-between items-top'>

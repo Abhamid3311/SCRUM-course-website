@@ -54,7 +54,7 @@ const Footer = () => {
                     <a class="link link-hover">Terms of use</a>
                 </div>
             </div>
-            <div class="footer px-10  flex flex-col-reverse lg:flex-row-reverse  border-base-300 justify-between">
+            <div class="footer px-10  flex flex-col-reverse lg:flex-row-reverse  border-base-300 justify-between pb-4">
                 <div class="items-center grid-flow-col">
                     <p>© 2000-2022 | All right reserved </p>
                 </div>

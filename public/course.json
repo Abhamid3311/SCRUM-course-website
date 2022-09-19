@@ -40,5 +40,26 @@
         "instructor": "Mr. Joy, Ex. P-hero",
         "ratings": "4.5",
         "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fHdlYiUyMGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+    },
+    {
+        "id": 7,
+        "name": "Learn TypeScript: The Complete Beginner Course",
+        "instructor": "Sumit Roy, Learn Sumit",
+        "ratings": "4.5",
+        "img": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYiUyMGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+    },
+    {
+        "id": 8,
+        "name": "Learn JavaScript: Intermediate Course",
+        "instructor": "Mosh Hamidani, Ex-code",
+        "ratings": "4.5",
+        "img": "https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fHdlYiUyMGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+    },
+    {
+        "id": 9,
+        "name": "Learn PHP: The Complete Beginner Course",
+        "instructor": "Mr. Joy, Ex. P-hero",
+        "ratings": "4.5",
+        "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fHdlYiUyMGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
     }
 ]
