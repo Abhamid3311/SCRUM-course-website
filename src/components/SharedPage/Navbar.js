@@ -1,7 +1,12 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../firebase.init';
 
 const Navbar = () => {
+    const [user] = useAuthState(auth);
+    console.log(user)
     const menuItems = <>
         <Link to='/' className='mr-5'>Home</Link>
         <a href='/home#course' className='mr-5'>Courses</a>
@@ -10,7 +15,7 @@ const Navbar = () => {
     </>
 
     return (
-        <header className="navbar bg-transparent">
+        <header className="navbar bg-indigo-500">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -28,8 +33,15 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end mr-5 text-xl">
-                <Link to='/login' className='mr-5'>Login</Link>
-                <button className='btn btn-outline rounded-full text-white'><Link to='/signup'>Sign Up</Link></button>
+                {
+                    user ?
+                        <button onClick={() => signOut(auth)}>Sign Out</button>
+                        :
+                        <div>
+                            <Link to='/login' className='mr-5'>Login</Link>
+                            <button className='btn btn-outline rounded-full text-white'><Link to='/signup'>Sign Up</Link></button>
+                        </div>
+                }
             </div>
         </header>
     );

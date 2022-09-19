@@ -13,6 +13,7 @@ import Footer from './components/SharedPage/Footer';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Navbar from './components/SharedPage/Navbar';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div >
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>

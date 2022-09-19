@@ -7,7 +7,7 @@ import img1 from '../../images/Ellipse 1.png';
 const TopBanner = () => {
     return (
         <section className='text-white bg-gradient-to-r from-indigo-500 to-purple-500'>
-            <Navbar></Navbar>
+            
             <div className=" hero min-h-screen ">
                 <div className=" hero-content flex-col lg:flex-row-reverse ">
                     <img src={img1} className='hidden lg:block w-1/3 relative left-20 ' alt="" />
