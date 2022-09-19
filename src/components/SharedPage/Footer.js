@@ -4,7 +4,7 @@ import { BiPhoneCall } from 'react-icons/bi';
 
 const Footer = () => {
     return (
-        <footer className='bg-gray-800 text-white'>
+        <footer className='bg-gray-800 text-white mt-10'>
             <div class="footer p-10 ">
                 <div className='lg:border-r pr-8'>
                     <h2 className='text-3xl font-bold mb-3'>SCRUMVERSE</h2>
